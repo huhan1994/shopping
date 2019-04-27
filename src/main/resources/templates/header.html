@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0022)http://59.111.148.252/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000"
+                                              http-equiv="X-UA-Compatible">
+
+    <META charset="utf-8"> <TITLE>java</TITLE> <LINK href="../styles/style.css"
+                                                     rel="stylesheet">
+    <META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV class="n-support">请使用Chrome、Safari等webkit内核的浏览器！</DIV>
+<#if !user??>
+
+<DIV class="n-head">
+    <DIV class="g-doc f-cb">
+        <DIV class="user">                    请<A href="/reglogin">[登录]</A>         </DIV>
+        <UL class="nav">
+            <LI><A href="/">首页</A></LI></UL></DIV></DIV>
+<#elseif user.mark==0!>
+
+<DIV class="n-head">
+    <DIV class="g-doc f-cb">
+        <DIV class="user"> 买家${user.name}你好<SPAN class="name"></SPAN>！
+            <A href="/logout">[退出]</A>
+        </DIV>
+        <UL class="nav">
+            <LI><A href="/">首页</A></LI>
+            <LI><A href="/account">账务</A></LI>
+            <LI><A href="/settleAccount">购物车</A></LI>
+        </UL>
+    </DIV>
+</DIV>
+
+<#elseif user.mark==1!>
+
+<DIV class="n-head">
+    <DIV class="g-doc f-cb">
+        <DIV class="user">    卖家${user.name}你好<SPAN class="name"></SPAN>！
+            <A href="/logout">[退出]</A>         </DIV>
+        <UL class="nav">
+            <LI><A href="/">首页</A></LI>
+            <LI><A href="/public1">发布</A></LI></UL></DIV></DIV>
+
+</#if>

@@ -1,0 +1,55 @@
+﻿
+
+<#include "header.html" />
+<DIV class="g-doc">
+
+
+    <DIV class="m-tab m-tab-fw m-tab-simple f-cb">
+        <H2>内容发布</H2></DIV>
+    <DIV class="n-public">
+        <FORM class="m-form m-form-ht" id="form" onsubmit="return false;" action="/publicSubmit"
+              method="post" autocomplete="off">
+            <DIV class="fmitem"><LABEL class="fmlab">标题：</LABEL>
+                <DIV
+                        class="fmipt"><INPUT name="title" class="u-ipt ipt" autofocus="" placeholder="2-80字符" value="">
+                </DIV></DIV>
+            <DIV class="fmitem"><LABEL class="fmlab">摘要：</LABEL>
+                <DIV
+                        class="fmipt"><INPUT name="summary" class="u-ipt ipt" placeholder="2-140字符" value="">
+                </DIV></DIV>
+            <DIV class="fmitem">
+                <LABEL class="fmlab">图片：</LABEL>
+                <DIV class="fmipt" id="uploadType">
+                    <INPUT name="pic" type="radio" checked="" value="url"> 图片地址
+                    <INPUT name="pic" type="radio" value="file"> 本地上传
+
+                </DIV>
+            </DIV>
+            <DIV class="fmitem"><LABEL class="fmlab"></LABEL>
+                <DIV class="fmipt" id="urlUpload">
+                    <INPUT name="image" class="u-ipt ipt" placeholder="图片地址" value="">
+                </DIV>
+                <DIV class="fmipt" id="fileUpload" style="display: none;">
+                    <INPUT name="file" class="u-ipt ipt" id="fileUp" type="file" onchange="document.getElementById('pathUp').value=this.value">
+                    <INPUT name="path" form="form" type="hidden" id="pathUp" value="">
+                    <BUTTON class="u-btn u-btn-primary" id="upload">上传</BUTTON>
+                </DIV>
+            </DIV>
+            <DIV class="fmitem"><LABEL class="fmlab">正文：</LABEL>
+                <DIV
+                        class="fmipt"><TEXTAREA name="detail" class="u-ipt" placeholder="2-1000个字符" rows="10">2-1000个字符</TEXTAREA>
+                </DIV></DIV>
+            <DIV class="fmitem"><LABEL class="fmlab">价格：</LABEL>
+                <DIV class="fmipt"><INPUT name="price" class="u-ipt price">元
+                </DIV></DIV>
+            <DIV class="fmitem fmitem-nolab fmitem-btn">
+                <DIV class="fmipt"><BUTTON class="u-btn u-btn-primary u-btn-lg" type="submit">发
+                    布</BUTTON>                 </DIV></DIV>
+        </FORM><SPAN class="imgpre"><IMG id="imgpre"  alt="" src="java_files/K3M8F8CI.htm"></SPAN>     </DIV></DIV>
+<DIV class="n-foot">
+    <P>版权所有：网易云课堂<A
+            href="http://mooc.study.163.com/smartSpec/detail/85002.htm">Java开发工程师(Web方向)</A>微专业团队</P></DIV>
+<SCRIPT src="../scripts/global.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="../scripts/public.js" type="text/javascript"></SCRIPT>
+</BODY></HTML>

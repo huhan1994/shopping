@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+
+hello word
+${var!}
+${var1!}
+${var2!}
+${date}
+
+<ul>
+    <#list colors as item>
+        ${item!}
+    </#list>
+</ul>
+
+<ul>
+    <#list map1?keys as key>
+        ${key!}
+        ${map1[key]}
+    </#list>
+</ul>
+
+<ul>
+    <#assign var=99/>
+    <#if var==99>
+        var = 99
+    </#if>
+</ul>
+
+<ul>
+    <#assign var=100/>
+    <#if var==99>
+        var = 99
+    <#else>
+        var = 100
+    </#if>
+</ul>
+
+<ul>
+
+    <#if colors??>
+        var = 99
+    </#if>
+</ul>
+</html>

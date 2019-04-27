@@ -1,0 +1,47 @@
+﻿<#include "header.html" />
+<DIV class="g-doc">
+<DIV class="m-tab m-tab-fw m-tab-simple f-cb">
+<H2>已购买的内容</H2></DIV>
+<TABLE class="m-table m-table-row n-table g-b3">
+  <COLGROUP>
+  <COL class="img">
+  <COL>
+  <COL class="time">
+  <COL>
+  <COL class="num">
+  <COL>
+  <COL class="price">
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH>内容图片</TH>
+    <TH>内容名称</TH>
+    <TH>购买时间</TH>
+    <TH>购买数量</TH>
+    <TH>购买价格</TH></TR></THEAD>
+  <TBODY>
+
+
+    <#list vos as vo>
+    <TR>
+      <TD><A href=${"/show?id="+vo.account.product.id!}><IMG alt="" src=${vo.account.product.main_image!}></A></TD>
+      <TD>
+        <H4><A href=${"/show?id="+vo.account.product.id!}>${vo.account.product.name!}</A></H4></TD>
+      <TD><SPAN class="v-time">${(vo.account.create_time?string("yyyy-MM-dd HH:mm:ss"))!}</SPAN></TD>
+      <TD><SPAN class="v-num">${vo.account.quantity!}</SPAN></TD>
+      <TD><SPAN class="v-unit">¥</SPAN><SPAN class="value">${vo.account.price!}</SPAN></TD></TR>
+    </#list>
+
+
+  </TBODY>
+  <TFOOT>
+  <TR>
+    <TD colspan="4">
+      <DIV class="total">总计：</DIV></TD>
+    <TD><SPAN class="v-unit">¥</SPAN><SPAN 
+  class="value">${sum!}</SPAN></TD></TR></TFOOT></TABLE></DIV>
+
+
+<DIV class="n-foot">
+<P>版权所有：网易云课堂<A 
+href="http://mooc.study.163.com/smartSpec/detail/85002.htm">Java开发工程师(Web方向)</A>微专业团队</P></DIV></BODY></HTML>

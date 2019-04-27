@@ -1,0 +1,936 @@
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+figure {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+caption {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+select {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+menu {
+	margin: 0px; padding: 0px;
+}
+header {
+	display: block;
+}
+footer {
+	display: block;
+}
+section {
+	display: block;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+nav {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+address {
+	display: block;
+}
+figure {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+menu {
+	display: block;
+}
+details {
+	display: block;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+caption {
+	text-align: left; font-weight: bold;
+}
+th {
+	text-align: left; font-weight: bold;
+}
+html {
+	border: 0px currentColor; border-image: none;
+}
+body {
+	border: 0px currentColor; border-image: none;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+iframe {
+	border: 0px currentColor; border-image: none;
+}
+abbr {
+	border: 0px currentColor; border-image: none;
+}
+i {
+	font-style: normal;
+}
+cite {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+address {
+	font-style: normal;
+}
+dfn {
+	font-style: normal;
+}
+[hidefocus] {
+	outline: 0px;
+}
+summary {
+	outline: 0px;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+h1 {
+	font-size: 100%;
+}
+h2 {
+	font-size: 100%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 100%;
+}
+h5 {
+	font-size: 100%;
+}
+h6 {
+	font-size: 100%;
+}
+small {
+	font-size: 100%;
+}
+sup {
+	font-size: 83%;
+}
+sub {
+	font-size: 83%;
+}
+pre {
+	font-family: inherit;
+}
+code {
+	font-family: inherit;
+}
+kbd {
+	font-family: inherit;
+}
+samp {
+	font-family: inherit;
+}
+q::before {
+	content: none;
+}
+q::after {
+	content: none;
+}
+textarea {
+	overflow: auto; resize: none;
+}
+label {
+	cursor: default;
+}
+summary {
+	cursor: default;
+}
+a {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+h1 {
+	font-weight: normal;
+}
+h2 {
+	font-weight: normal;
+}
+h3 {
+	font-weight: normal;
+}
+h4 {
+	font-weight: normal;
+}
+h5 {
+	font-weight: normal;
+}
+h6 {
+	font-weight: normal;
+}
+em {
+	font-weight: normal;
+}
+strong {
+	font-weight: normal;
+}
+b {
+	font-weight: normal;
+}
+del {
+	text-decoration: none;
+}
+ins {
+	text-decoration: none;
+}
+u {
+	text-decoration: none;
+}
+s {
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button {
+	-webkit-appearance: none;
+}
+input[type='button'] {
+	-webkit-appearance: none;
+}
+input[type='submit'] {
+	-webkit-appearance: none;
+}
+input[type='reset'] {
+	-webkit-appearance: none;
+}
+body {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+input {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+keygen {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+legend {
+	font: 14px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "ËÎÌå"; outline: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+body {
+	background: rgb(243, 243, 243);
+}
+a {
+	color: rgb(51, 51, 51);
+}
+a:hover {
+	color: rgb(0, 0, 0);
+}
+.f-cb::after {
+	height: 0px; overflow: hidden; clear: both; display: block; visibility: hidden; content: ".";
+}
+body {
+	padding-bottom: 50px;
+}
+.g-doc {
+	margin: 0px auto; width: 970px;
+}
+.g-doc th.td {
+	text-align: center;
+}
+#thisId {
+	display: none;
+}
+#act-btn {
+	margin-top: 100px; margin-left: 300px;
+}
+#act-btn button {
+	margin-left: 100px;
+}
+.u-btn {
+	padding: 0px 10px; border-radius: 4px; border: 1px solid rgb(217, 217, 217); border-image: none; height: 32px; text-align: center; line-height: 30px; font-size: 14px; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative; cursor: pointer; -ms-word-wrap: normal; box-sizing: border-box;
+}
+.u-btn > .file {
+	padding: 1px; top: -1px; width: 100%; height: 100%; right: -1px; overflow: hidden; position: absolute; opacity: 0;
+}
+.u-btn > .file > input {
+	top: 0px; width: 1000%; height: 100%; right: 0px; position: absolute; cursor: pointer;
+}
+.u-btn.z-dis {
+	cursor: default; opacity: 0.5;
+}
+.u-btn.z-dis:active {
+	box-shadow: none;
+}
+.u-btn.z-dis > .file > input {
+	cursor: default;
+}
+.u-btn {
+	background-color: rgb(255, 255, 255);
+}
+.u-btn.z-dis:hover {
+	background-color: rgb(255, 255, 255);
+}
+.u-btn.z-dis:active {
+	background-color: rgb(255, 255, 255);
+}
+.u-btn {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.u-btn:hover {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.u-btn:hover {
+	background-color: rgb(242, 242, 242);
+}
+.u-btn:active {
+	background-color: rgb(230, 230, 230);
+}
+.u-btn-normal {
+	border-color: rgb(192, 192, 192);
+}
+.u-btn-normal {
+	background-color: rgb(230, 230, 230);
+}
+.u-btn-normal.z-dis:hover {
+	background-color: rgb(230, 230, 230);
+}
+.u-btn-normal.z-dis:active {
+	background-color: rgb(230, 230, 230);
+}
+.u-btn-normal {
+	color: rgb(51, 51, 51);
+}
+.u-btn-normal:hover {
+	color: rgb(51, 51, 51);
+}
+.u-btn-normal:hover {
+	background-color: rgb(217, 217, 217);
+}
+.u-btn-normal:active {
+	background-color: rgb(205, 205, 205);
+}
+.u-btn-primary {
+	border-color: rgb(144, 23, 49);
+}
+.u-btn-primary {
+	background-color: rgb(210, 33, 71);
+}
+.u-btn-primary.z-dis:hover {
+	background-color: rgb(210, 33, 71);
+}
+.u-btn-primary.z-dis:active {
+	background-color: rgb(210, 33, 71);
+}
+.u-btn-primary {
+	color: rgb(255, 255, 255);
+}
+.u-btn-primary:hover {
+	color: rgb(255, 255, 255);
+}
+.u-btn-primary:hover {
+	background-color: rgb(188, 30, 64);
+}
+.u-btn-primary:active {
+	background-color: rgb(166, 26, 56);
+}
+.u-btn-lg {
+	padding: 0px 15px; height: 40px; line-height: 38px; font-size: 18px;
+}
+.u-btn-sm {
+	padding: 0px 10px; height: 26px; line-height: 24px; font-size: 12px;
+}
+.u-btn-xs {
+	padding: 0px 10px; height: 22px; line-height: 20px; font-size: 12px;
+}
+.u-btn-block {
+	width: 100%; display: block;
+}
+.u-btn-fw {
+	min-width: 6em;
+}
+.u-ipt {
+	padding: 6px 10px; border-radius: 4px; border: 1px solid rgb(217, 217, 217); border-image: none; width: 100%; height: 32px; line-height: 18px; font-size: 14px; vertical-align: middle; display: inline-block; box-sizing: border-box; background-color: rgb(255, 255, 255);
+}
+[type=file].u-ipt {
+	background: none; border-color: transparent; width: auto;
+}
+.u-ipt:focus {
+	box-shadow: inset 0px 1px 4px rgba(0,0,0,0.1);
+}
+.u-ipt.z-err {
+	border-color: rgb(255, 138, 119); animation:shake 0.5s;
+}
+.u-ipt.z-dis {
+	cursor: default; opacity: 0.5; box-shadow: none;
+}
+textarea.u-ipt {
+	height: auto;
+}
+select.u-ipt {
+	padding: 0px; width: auto; line-height: 1;
+}
+.u-ipt-lg {
+	padding: 8px 10px; height: 40px; line-height: 22px; font-size: 18px;
+}
+.u-ipt-sm {
+	padding: 3px 6px; height: 26px; line-height: 16px; font-size: 12px;
+}
+.u-ipt-xs {
+	padding: 2px 5px; height: 22px; line-height: 16px; font-size: 12px;
+}
+.v-unit {
+	color: rgb(153, 153, 153); padding-right: 5px;
+}
+.v-value {
+	color: rgb(210, 33, 71); font-size: 20px; font-weight: bold;
+}
+.v-time {
+	color: rgb(102, 102, 102);
+}
+.v-load {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 99;
+}
+.v-load .load {
+	background: rgba(0, 0, 0, 0.5); margin: -20px 0px 0px -20px; border-radius: 20px; left: 50%; top: 50%; width: 40px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; overflow: hidden; position: absolute;
+}
+.v-load .load b {
+	display: none;
+}
+.v-load .load i {
+	transform-origin: 10px 15px; animation:loading 1s linear infinite both; left: 10px; top: 5px; width: 30px; height: 30px; overflow: hidden; position: absolute;
+}
+.v-load .load i::after {
+	border-radius: 50%; border: 2px solid rgb(255, 255, 255); border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; margin-left: -5px; position: absolute; content: ""; box-sizing: border-box;
+}
+.v-load-result .load {
+	width: 100px; text-align: center; margin-left: -50px; white-space: nowrap;
+}
+.v-load-result .load b {
+	display: block;
+}
+.v-load-result .load i {
+	display: none;
+}
+.m-form {
+	font-size: 14px;
+}
+.m-form .fmitem {
+	margin-top: 20px;
+}
+.m-form :first-child.fmitem {
+	margin-top: 0px;
+}
+.m-form .fmlab {
+	line-height: 32px; margin-bottom: 5px; vertical-align: top; display: block;
+}
+.m-form .fmipt {
+	position: relative;
+}
+.m-form .fmbtn .u-btn + .u-btn {
+	margin-left: 20px;
+}
+.m-form-ht {
+	width: 100%; display: table; table-layout: auto; border-spacing: 0;
+}
+.m-form-ht .fmitem {
+	display: table-row;
+}
+.m-form-ht :first-child.fmitem .fmlab {
+	padding-top: 0px;
+}
+.m-form-ht :first-child.fmitem .fmipt {
+	padding-top: 0px;
+}
+.m-form-ht .fmitem-nolab::before {
+	display: table-cell; content: " ";
+}
+.m-form-ht .fmlab {
+	margin: 0px; padding-top: 20px; display: table-cell;
+}
+.m-form-ht .fmipt {
+	margin: 0px; padding-top: 20px; display: table-cell;
+}
+.m-form-ht .fmlab {
+	width: 1em; text-align: right; padding-right: 5px; white-space: nowrap; -ms-word-wrap: normal;
+}
+.m-tab {
+	margin: 30px 0px; line-height: 35px; position: relative;
+}
+.m-tab > h2 {
+	padding-bottom: 1px; font-size: 18px; margin-right: 20px; float: left;
+}
+.m-tab > .tab {
+	padding-bottom: 1px; float: left;
+}
+.m-tab > .tab > ul > li {
+	float: left; position: relative;
+}
+.m-tab > .tab > ul > li > a {
+	color: rgb(51, 51, 51);
+}
+.m-tab > .tab > ul > li > a:hover {
+	color: rgb(51, 51, 51);
+}
+.m-tab > .tab > ul > li > a {
+	background: rgb(250, 250, 250); border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(217, 217, 217) rgb(217, 217, 217) currentColor; padding: 0px 15px; transition:background-color 0.2s; border-image: none; text-align: center; font-size: 14px; margin-left: -1px; display: block; position: relative;
+}
+.m-tab > .tab > ul > li > a:hover {
+	background: rgb(237, 237, 237);
+}
+.m-tab > .tab > ul > li > a:hover {
+	z-index: 3;
+}
+.m-tab > .tab > ul > li:first-child > a {
+	margin-left: 0px; border-top-left-radius: 4px;
+}
+.m-tab > .tab > ul > li:last-child > a {
+	border-top-right-radius: 4px;
+}
+.m-tab > .tab > ul > li.z-sel > a {
+	background: rgb(243, 243, 243); padding-bottom: 1px; margin-bottom: -1px; z-index: 2;
+}
+.m-tab > .more {
+	margin-left: 10px; float: right;
+}
+.m-tab > .more > a {
+	color: rgb(51, 51, 51);
+}
+.m-tab > .more > a:hover {
+	color: rgb(51, 51, 51);
+}
+.m-tab::before {
+	left: 0px; right: 0px; bottom: 0px; border-bottom-color: rgb(217, 217, 217); border-bottom-width: 1px; border-bottom-style: solid; position: absolute; content: "";
+}
+.m-tab-simple > .tab > ul > li > a {
+	background: none; border-color: transparent; border-radius: 4px 4px 0px 0px; margin-left: 0px;
+}
+.m-tab-simple > .tab > ul > li.z-sel > a {
+	border-color: rgb(217, 217, 217);
+}
+.m-tab-srt > .tab > ul > li > a {
+	border-radius: 4px 4px 0px 0px; margin-left: 2px;
+}
+.m-tab-rt > h2 {
+	margin-right: 0px;
+}
+.m-tab-rt > .tab {
+	float: right;
+}
+.m-tab-sm {
+	line-height: 25px;
+}
+.m-tab-sm > h2 {
+	font-size: 14px;
+}
+.m-tab-sm > .tab > ul > li > a {
+	font-size: 12px;
+}
+.m-tab-fw > .tab > ul > li > a {
+	min-width: 6em;
+}
+.m-tab-jt > .tab {
+	float: none;
+}
+.m-tab-jt > .tab > ul {
+	width: 100%; display: table; table-layout: fixed; border-spacing: 0;
+}
+.m-tab-jt > .tab > ul > li {
+	float: none; display: table-cell;
+}
+.m-tab-jt > .tab > ul > li > a {
+	padding-right: 0px; padding-left: 0px; min-width: 0px;
+}
+.m-tab-jt > h2 ~ .tab {
+	overflow: hidden;
+}
+.m-tab-jt > .more ~ .tab {
+	overflow: hidden;
+}
+.m-table {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px 0px; border-style: solid; border-color: rgb(217, 217, 217); border-radius: 4px; border-image: none; width: 100%; border-collapse: separate; table-layout: auto;
+}
+.m-table th {
+	border-width: 1px 0px 0px 1px; border-style: solid; border-color: rgb(217, 217, 217); padding: 10px; border-image: none;
+}
+.m-table td {
+	border-width: 1px 0px 0px 1px; border-style: solid; border-color: rgb(217, 217, 217); padding: 10px; border-image: none;
+}
+.m-table th {
+	background: rgb(235, 235, 235);
+}
+.m-table thead > :first-child > :first-child {
+	border-top-left-radius: 4px;
+}
+.m-table tbody > :first-child > :first-child {
+	border-top-left-radius: 4px;
+}
+.m-table thead > :first-child > :last-child {
+	border-top-right-radius: 4px;
+}
+.m-table tbody > :first-child > :last-child {
+	border-top-right-radius: 4px;
+}
+.m-table thead + tbody > :first-child > :first-child {
+	border-top-left-radius: 0px;
+}
+.m-table thead + tbody > :first-child > :last-child {
+	border-top-right-radius: 0px;
+}
+.m-table > :last-child > :last-child > :first-child {
+	border-bottom-left-radius: 4px;
+}
+.m-table > :last-child > :last-child > :last-child {
+	border-bottom-right-radius: 4px;
+}
+.m-table tbody tr:nth-child(2n) {
+	background: rgb(250, 250, 250);
+}
+.m-table tbody tr:hover {
+	background: rgb(242, 242, 242);
+}
+.m-table caption {
+	padding-bottom: 5px;
+}
+.m-table-row {
+	border-width: 1px 1px 0px;
+}
+.m-table-row th {
+	border-width: 0px 0px 1px;
+}
+.m-table-row td {
+	border-width: 0px 0px 1px;
+}
+.m-win {
+	background: rgb(255, 255, 255); border-radius: 6px; text-align: left; display: inline-block; position: relative; min-width: 200px; max-width: 500px; box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+.m-win .winhd {
+	background: rgb(242, 242, 242); padding: 15px; border-radius: 4px 4px 0px 0px; height: 16px; line-height: 16px; border-bottom-color: rgb(217, 217, 217); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.m-win .winhd .wintt {
+	font-size: 16px;
+}
+.m-win .winhd ~ .wincls {
+	top: 17px; right: 15px;
+}
+.m-win .wincls {
+	font: 24px/14px arial; top: 5px; right: 5px; color: rgb(102, 102, 102); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.m-win .wincls:hover {
+	color: rgb(77, 77, 77);
+}
+.m-win .winbd {
+	padding: 20px; position: relative;
+}
+.m-win .winft {
+	background: rgb(242, 242, 242); padding: 15px; border-radius: 0px 0px 4px 4px; text-align: center; border-top-color: rgb(217, 217, 217); border-top-width: 1px; border-top-style: solid;
+}
+.m-win .winft .u-btn + .u-btn {
+	margin-left: 20px;
+}
+.m-win-rt .winft {
+	text-align: right;
+}
+.m-win-simple .winhd {
+	background: none; margin: 0px 15px; padding-right: 0px; padding-left: 0px;
+}
+.m-win-simple .winft {
+	background: none; border: 0px currentColor; border-image: none;
+}
+.m-winwrapper {
+	background: rgba(0, 0, 0, 0.6); left: 0px; top: 0px; width: 100%; height: 100%; display: table; position: fixed; z-index: 88; table-layout: fixed; border-spacing: 0;
+}
+.m-winwrapper .winwrapper {
+	text-align: center; vertical-align: middle; display: table-cell;
+}
+.n-support {
+	background: rgb(255, 221, 0); border-radius: 2px; left: 50%; top: 10px; width: 400px; height: 30px; text-align: center; line-height: 30px; margin-left: -200px; position: fixed; -webkit-transform: translate(0, -50px);
+}
+.n-login {
+	background: rgb(255, 255, 255); padding: 40px; border-radius: 10px; left: 50%; top: 50%; width: 300px; position: fixed; box-shadow: 0px 2px 5px rgba(0,0,0,0.2); transform: translate(-50%, -50%);
+}
+.n-head {
+	background: rgb(210, 33, 71); margin: 0px 0px 30px; padding: 10px 15px; line-height: 30px;
+}
+.n-head {
+	color: rgb(255, 255, 255);
+}
+.n-head a {
+	color: rgb(255, 255, 255);
+}
+.n-head a:hover {
+	color: rgb(255, 255, 255);
+}
+.n-head .user {
+	float: left;
+}
+.n-head .user .name {
+	
+}
+.n-head .user a {
+	margin-left: 5px;
+}
+.n-head .nav {
+	float: right;
+}
+.n-head .nav ul {
+	
+}
+.n-head .nav li {
+	padding-left: 20px; float: left; position: relative;
+}
+.n-head .nav li + li::after {
+	left: 10px; top: 50%; height: 16px; margin-top: -8px; border-left-color: rgba(255, 255, 255, 0.4); border-left-width: 1px; border-left-style: solid; position: absolute; content: "";
+}
+.n-head .nav a {
+	padding: 0px 15px; border-radius: 2px; transition:background-color 0.2s; font-size: 16px; display: block;
+}
+.n-head .nav a:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+.n-plist {
+	margin: 30px 0px; padding: 1px 0px;
+}
+.n-plist ul {
+	margin: -30px 0px 0px -30px;
+}
+.n-plist li {
+	margin: 30px 0px 0px 30px; float: left; position: relative;
+}
+.n-plist .link {
+	background: rgb(255, 255, 255); border-radius: 2px; transition:box-shadow 0.2s; width: 220px; overflow: hidden; display: block;
+}
+.n-plist .link:hover {
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+.n-plist .img {
+	padding-bottom: 100%; position: relative;
+}
+.n-plist .img img {
+	width: 100%; height: 100%; position: absolute;
+}
+.n-plist h3 {
+	padding: 10px 15px 0px; height: 20px; line-height: 20px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.n-plist .price {
+	padding: 10px 15px 0px; height: 20px; line-height: 20px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.n-plist .price {
+	padding-bottom: 15px;
+}
+.n-plist .had {
+	border-width: 22px; border-style: solid; border-color: rgb(170, 170, 170) transparent transparent rgb(170, 170, 170); left: 0px; top: 0px; width: 0px; height: 0px; position: absolute; border-top-left-radius: 2px;
+}
+.n-plist .had b {
+	left: -25px; top: -12px; width: 40px; text-align: center; color: rgb(238, 238, 238); line-height: 14px; font-size: 12px; white-space: nowrap; position: absolute; transform: rotate(-45deg);
+}
+.n-plist .del {
+	transition:opacity 0.2s; right: 15px; bottom: 15px; position: absolute; opacity: 0;
+}
+.n-plist li:hover .del {
+	opacity: 1;
+}
+.n-show {
+	margin: 30px 0px;
+}
+.n-show .img {
+	border-radius: 2px; width: 300px; height: 300px; overflow: hidden; margin-right: 30px; float: left;
+}
+.n-show .img img {
+	width: 100%; height: 100%; display: block;
+}
+.n-show .cnt {
+	overflow: hidden;
+}
+.n-show .cnt h2 {
+	margin: 0px 0px 10px; font-size: 20px;
+}
+.n-show .cnt .summary {
+	margin: 0px 0px 10px;
+}
+.n-show .cnt .price {
+	margin: 0px 0px 10px;
+}
+.n-show .cnt .num {
+	margin: 0px 0px 10px;
+}
+.lessNum {
+	font-size: 18px; font-weight: bold; margin-left: 10px;
+}
+.moreNum {
+	font-size: 18px; font-weight: bold; margin-left: 10px;
+}
+.totalNum {
+	font-size: 16px; margin-left: 10px;
+}
+.n-show .cnt .oprt {
+	margin: 10px 0px 0px;
+}
+.n-show .cnt .u-btn {
+	margin-right: 10px; float: left; min-width: 8em;
+}
+.n-show .cnt .buyprice {
+	color: rgb(153, 153, 153); line-height: 32px; float: left;
+}
+.n-table img {
+	border-radius: 2px; width: 60px; height: 60px; display: block;
+}
+.n-table col.img {
+	width: 100px;
+}
+.n-table col.time {
+	width: 200px;
+}
+.n-table col.price {
+	width: 140px;
+}
+.n-table .total {
+	text-align: right;
+}
+.n-public {
+	position: relative;
+}
+.n-public :not([type=file]).ipt {
+	width: 720px;
+}
+.n-public .price {
+	width: 140px; margin-right: 5px;
+}
+.n-public .imgpre {
+	background: rgb(255, 255, 255); padding: 2px; border-radius: 4px; border: 1px solid rgb(217, 217, 217); border-image: none; top: 0px; right: 0px; position: absolute;
+}
+.n-public .imgpre img {
+	border-radius: 2px; transition:width 0.2s, height 0.2s; width: 130px; height: 130px; display: block;
+}
+.n-public .imgpre:hover img {
+	width: 300px; height: 300px;
+}
+.n-result {
+	background: rgb(255, 255, 255); margin: 50px auto; padding: 50px; border-radius: 5px; width: 500px; text-align: center; line-height: 2; box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+.n-result h3 {
+	font-size: 20px;
+}
+.n-result p {
+	margin: 20px 0px 0px;
+}
+.n-result p a + a {
+	margin-left: 20px;
+}
+.n-foot {
+	background: rgb(243, 243, 243); padding: 10px 0px; left: 0px; text-align: center; right: 0px; bottom: 0px; color: rgb(136, 136, 136); line-height: 20px; font-size: 12px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; position: fixed;
+}
+.n-foot a {
+	margin: 0px 3px; color: rgb(102, 102, 102);
+}

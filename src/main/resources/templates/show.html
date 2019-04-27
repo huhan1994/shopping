@@ -1,0 +1,51 @@
+﻿
+<#include "header.html" />
+<DIV class="g-doc">
+    <DIV class="n-show f-cb" id="showContent">
+
+        <DIV class="img">
+            <#if (vo.product.main_image)??>
+            <IMG alt="" src="${vo.product.main_image!}">
+            <#else>
+            <IMG alt="" src="${vo.product.sub_image!}">
+            </#if>
+        </DIV>
+        <DIV class="cnt">
+            <H2>${vo.product.name!}</H2>
+            <P class="summary">${vo.product.abstract!}</P>
+            <DIV class="price"><SPAN class="v-unit">¥</SPAN><SPAN class="v-value">${vo.product.price!}</SPAN>
+        </DIV>
+
+
+                <DIV class="num">购买数量：
+                    <SPAN class="lessNum" id="plusNum"><A>-</A></SPAN>
+                    <SPAN class="totalNum" id="allNum"></SPAN>
+                    <SPAN class="moreNum" id="addNum"><A>+</A></SPAN>
+                </DIV>
+            <DIV class="oprt f-cb">
+                <#if user?? && user.mark==0!>
+                    <#if vo.mark == 0>
+                        <button  class="u-btn u-btn-primary" id="add" data-id="${vo.product.id!}" data-title="${vo.product.name!}" data-price="${vo.product.price!}" >
+                            加入购物车
+                        </button>
+                    <#else>
+                        <span class="u-btn u-btn-primary z-dis">已购买</span>
+                        <span class="buyprice">当时购买价格：¥${vo.old_price!}</span>
+                    </#if>
+                <#elseif user?? && user.mark==1!>
+                    <a href="/edit?id=${vo.product.id!}" class="u-btn u-btn-primary">编 辑</a>
+                </#if>
+            </DIV>
+
+
+
+</DIV></DIV>
+
+<DIV class="m-tab m-tab-fw m-tab-simple f-cb">
+    <H2>详细信息</H2></DIV>
+<DIV class="n-detail">${vo.product.detail!}     </DIV></DIV>
+
+
+<#include "foot.html" />
+
+

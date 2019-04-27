@@ -1,0 +1,50 @@
+﻿<#include "header.html" />
+<DIV class="g-doc">
+<DIV class="m-tab m-tab-fw m-tab-simple f-cb">
+<DIV class="tab">
+<UL>
+
+    <LI class="z-sel"><A href="/">所有内容</A></LI>
+    <#if user?? && user.mark==0 !>
+    <LI><A href="/?type=1">未购买的内容</A></LI>
+    </#if>
+</UL></DIV></DIV>
+
+<DIV class="n-plist">
+<UL class="f-cb" id="plist">
+
+    <#list vos as vo>
+    <LI id=${"p-"+vo.product.id!}><A class="link" href=${"/show?id="+vo.product.id!}>
+    <DIV class="img">
+        <#if (vo.product.main_image)??>
+        <IMG alt= ${vo.product.name!} src=${vo.product.main_image!}>
+        <#else>
+        <IMG alt= ${vo.product.name!} src=${vo.product.sub_image!}>
+        </#if>
+    </DIV>
+    <H3>${vo.product.name!}</H3>
+    <DIV class="price"><SPAN class="v-unit">¥</SPAN><SPAN
+    class="v-value">${vo.product.price!}</SPAN></DIV>
+    <#if !user??>
+
+    <#elseif user.mark==0 && vo.product.status==1 !>
+        <SPAN class="had"><B>已购买</B></SPAN>
+    <#elseif user.mark==1 && vo.product.status==1 !>
+        <SPAN class="had"><B>已出售</B></SPAN>
+    </#if>
+
+    </A></LI>
+    </#list>
+
+</UL></DIV></DIV>
+
+
+
+
+<DIV class="n-foot">
+<P>版权所有：zhenyulee<A
+href="http://mooc.study.163.com/smartSpec/detail/85002.htm">网上商城</A>专业</P></DIV>
+<SCRIPT src="../scripts/global.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="../scripts/pageIndex.js" type="text/javascript"></SCRIPT>
+ </BODY></HTML>

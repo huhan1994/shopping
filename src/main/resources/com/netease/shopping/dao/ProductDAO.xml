@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.netease.shopping.dao.ProductDAO">
+<sql id="table">product</sql>
+<sql id="selectFields"> id, user_id, name, abstract, main_image, sub_image, detail, price, stock, status</sql>
+<resultMap id="product_buyer" type="com.netease.shopping.model.Product">
+    <id column="id" property="id" />
+    <result column="user_id" property="user_id" />
+    <result column="name" property="name" />
+    <result column="abstract" property="abstractt" />
+    <result column="main_image" property="main_image" />
+    <result column="sub_image" property="sub_image" />
+    <result column="detail" property="detail" />
+    <result column="price" property="price" />
+    <result column="stock" property="stock" />
+    <result column="status" property="status" />
+</resultMap>
+<select id="selectLatestProducts" resultMap="product_buyer">
+    SELECT
+    <include refid="selectFields"/>
+    FROM
+    <include refid="table"/>
+
+    WHERE stock>0
+    ORDER BY id ASC
+    LIMIT #{offset},#{limit}
+</select>
+
+<select id="selectInbuyProducts" resultMap="product_buyer">
+        SELECT
+        p.id, p.user_id, p.name, p.abstract, p.main_image, p.sub_image, p.detail, p.price, p.stock, p.status
+        FROM
+        <include refid="table"/> as p
+
+        WHERE p.stock>0 AND p.id in (select product_id from account where user_id = #{user_id})
+        ORDER BY id ASC
+        LIMIT #{offset},#{limit}
+</select>
+
+
+
+<select id="selectUnbuyProducts" resultMap="product_buyer">
+    SELECT
+    p.id, p.user_id, p.name, p.abstract, p.main_image, p.sub_image, p.detail, p.price, p.stock, p.status
+    FROM
+    <include refid="table"/> as p
+
+    WHERE p.stock>0 AND p.id not in (select product_id from account where user_id = #{user_id})
+    ORDER BY id ASC
+    LIMIT #{offset},#{limit}
+</select>
+
+
+<select id="selectSingleProduct" resultMap="product_buyer">
+    SELECT
+    <include refid="selectFields"/>
+    FROM
+    <include refid="table"/>
+
+    WHERE id = #{id}
+</select>
+</mapper>

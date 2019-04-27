@@ -24,13 +24,6 @@ public class IndexController {
     @Autowired
     UtilService utilService;
 
-    /*
-    @RequestMapping(path={"/1","/index1"})
-    @ResponseBody
-    public String index(HttpSession session){
-        return "hello shopping"+session.getAttribute("msg")+utilService.getMessage(1);
-    }*/
-
     @RequestMapping(path={"/profile/{userId}"},method = {RequestMethod.GET})
     @ResponseBody
     public String profile(@PathVariable("userId") int userId,
